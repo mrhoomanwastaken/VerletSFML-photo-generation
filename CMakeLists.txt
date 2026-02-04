@@ -7,7 +7,7 @@ option(BUILD_SHARED_LIBS "Build shared libraries" OFF)
 
 # Try to find SFML on the system first
 # mostly for linux
-find_package(SFML 3.0 QUIET COMPONENTS Graphics)
+find_package(SFML 2.6 QUIET COMPONENTS Graphics)
 
 if(NOT SFML_FOUND)
     # If not found, download it
